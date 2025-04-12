@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Project 3</title>
+        <link rel="stylesheet" href="styles.css" />
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <script type="text/javascript" defer src="script.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About Me</a></li>
+                    <li><a href="contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main>
+            <section class="about">
+                <h1><u>Bricks</u></h1>
+                <p>This is a website about bricks. Bricks are strong. You can make a lot of things with bricks.</p>
+                <div id="radioblock">
+                    <p>How much do you like bricks?</p>
+                    <input type="radio" id="love-id" name="opinion" value="r1" onclick="clicked(id)">
+                    <label for="love-id">Love them!</label><br>
+                    <input type="radio" id="meh-id" name="opinion" value="r2" onclick="clicked(id)">
+                    <label for="meh-id">They're fine</label><br>
+                    <input type="radio" id="ew-id" name="opinion" value="r3" onclick="clicked(id)">
+                    <label for="ew-id">Disgusting</label><br>
+                  </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; DK. 2025</p>
+        </footer>
+    
+    </body>
+</html>
